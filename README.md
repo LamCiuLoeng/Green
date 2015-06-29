@@ -1,5 +1,5 @@
 # Green
-一个Web Server + ORM的东西
+一个Web Server + ORM的东西。做这个东西的目的，是把业务逻辑从传统的后端，搬到前端，由类似AngularJS，React之类的JS框架来实现。Green只负责提供访问数据库的标准API。这样做的好处在于，前端HTML5+JS可以自由地访问数据，而Green充当一个隐形的中间件，适用于多种不同的前端应用(APP,Web等)用统一相同的API来访问数据。
 
 - 不是一个framework，而更倾向于中间件
 - Restful
