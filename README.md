@@ -3,6 +3,7 @@
 
 - 不是一个framework，而更倾向于中间件
 - Restful
+- non-blocking，可以应付大吞吐量的高并发场景
 - 有extension功能，包括用户验证，返回格式选择等
 - 其本身是一个Web Server和ORM的合成体
 - No DB Scheme，所以可以随意地查询数据库，无论是传统的关系型，还是NoSQL类型的数据库，都可以轻松地进行GRUD操作。
